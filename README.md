@@ -2,6 +2,12 @@
 
 This is simple demonstration of Reinforcement Learning using the Snake game where the black board and food location are the environment and the snake is the agent. 
 
+<img 
+    style="display: block; margin: 0 auto; width: 100%"
+    src="demo.gif" 
+    alt="Our logo">
+</img>
+
 The training the takes place follows this structure:
 
 ```
@@ -37,10 +43,6 @@ Model():
         return nn.predict(input)
 ``` 
 
-<img 
-    style="display: block; margin: 0 auto; width: 80%"
-    src="demo.gif" 
-    alt="Our logo">
-</img>
+
 
 
